@@ -48,6 +48,27 @@ let dinosaur = {
  let info = `Name: ${dinosaur.name}<br>Age: ${dinosaur.age}<br>City: ${dinosaur.place}`;
     document.getElementById("objects").innerHTML = info;
 
+    //js event handler
+
+    let button = document.getElementById('btn');
+    let box = document.getElementById('box');
+
+    let rotate = false;
+
+    button.addEventListener("click", function(){
+
+        if(!rotate){
+            box.style.transform = "rotate(360deg)";
+            rotate = true;
+        }else{
+            box.style.transform = "rotate(0deg)";
+            rotate = false;
+        }
+
+
+
+
+    })
 
 
 
