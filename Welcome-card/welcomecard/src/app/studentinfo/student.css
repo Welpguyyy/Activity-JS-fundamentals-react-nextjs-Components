@@ -1,0 +1,44 @@
+.student-box {
+  border: 2px solid #333;
+  padding: 20px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-box h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.student-box label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.student-box input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.student-box button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.student-box button:hover {
+  background-color: #0056b3;
+}
+
