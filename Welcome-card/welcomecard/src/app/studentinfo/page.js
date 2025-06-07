@@ -1,7 +1,9 @@
 "use client";
 import "./student.css";
+//importing use state from react
 import { useState } from "react";
 
+//a student object to where i can store the student details
 export default function Countterr() {
   const [student, setStudent] = useState({
     name: "",
@@ -9,11 +11,12 @@ export default function Countterr() {
     major: "",
     email: ""
   });
-
+//event handler for storing inputted data to variables
   const handleChange = (e) => {
     setStudent({ ...student, [e.target.name]: e.target.value });
   };
 
+  //an event handler for the submit button, it creates an alert 
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(

@@ -12,11 +12,13 @@ export default function RootLayout({ children }) {
       <body>
         
   <navigator></navigator>
+   {/* a div for my animated background*/}
         <div className="animated-background"></div>
 
 
 
         <h1>Entice, Joram Zhient B.     BSCPE-2</h1>
+         {/* The 'children' is where the page.js is*/}
         <main>{children}</main>
         <footer>This is the layout footer</footer>
       </body>

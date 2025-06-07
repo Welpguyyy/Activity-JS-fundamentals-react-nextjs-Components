@@ -1,6 +1,8 @@
 "use client";
+//importing useState in react
 import { useState } from "react";
 
+//using useState here to make the counter interactive
 export default function Counter() {
 
   const [count, setCount] = useState(0); 
